@@ -26,5 +26,13 @@ public class Client {
         Student mayStudent = studentRegistry.get("May-LLD-Batch").clone();
         Student janStudent = studentRegistry.get("Jan-LLD-Batch").clone();
 
+        IntelligentStudent scalerIntelligentStudent = new IntelligentStudent();
+        scalerIntelligentStudent.setBatchName("IntelligentGroup");
+        scalerIntelligentStudent.setAvgBatchPsp(100);
+        scalerIntelligentStudent.setYearOfEnrollment(2020);
+        scalerIntelligentStudent.setIq(100);
+
+        IntelligentStudent iqStudent1 = scalerIntelligentStudent.clone();
+
     }
 }

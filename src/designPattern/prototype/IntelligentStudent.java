@@ -8,6 +8,9 @@ public class IntelligentStudent extends Student{
         this.iq = intelligentStudent.iq;
     }
 
+    public IntelligentStudent() {
+    }
+
     @Override
     public IntelligentStudent clone(){
         return new IntelligentStudent(this);
