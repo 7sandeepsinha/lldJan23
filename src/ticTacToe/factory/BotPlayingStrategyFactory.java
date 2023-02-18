@@ -1,8 +1,8 @@
 package ticTacToe.factory;
 
 import ticTacToe.model.BotDifficultyLevel;
-import ticTacToe.strategy.BotPlayingStrategy;
-import ticTacToe.strategy.LinearBotPlayingStrategy;
+import ticTacToe.strategy.botPlayingStrategy.BotPlayingStrategy;
+import ticTacToe.strategy.botPlayingStrategy.LinearBotPlayingStrategy;
 
 public class BotPlayingStrategyFactory {
     public static BotPlayingStrategy getPlayingStrategy(BotDifficultyLevel difficultyLevel){

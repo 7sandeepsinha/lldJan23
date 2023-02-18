@@ -1,8 +1,9 @@
-package ticTacToe.strategy;
+package ticTacToe.strategy.botPlayingStrategy;
 
 import ticTacToe.model.*;
+import ticTacToe.strategy.botPlayingStrategy.BotPlayingStrategy;
 
-public class LinearBotPlayingStrategy implements BotPlayingStrategy{
+public class LinearBotPlayingStrategy implements BotPlayingStrategy {
     @Override
     public Move decideMove(Player player, Board board) {
         for(int i=0;i<board.getBoard().size();i++){

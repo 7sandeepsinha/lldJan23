@@ -1,4 +1,4 @@
-package ticTacToe.strategy;
+package ticTacToe.strategy.botPlayingStrategy;
 
 import ticTacToe.model.Board;
 import ticTacToe.model.Move;
