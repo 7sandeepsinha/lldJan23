@@ -7,6 +7,7 @@ public class Client {
         SCMNotifier scmNotifier = new SCMNotifier();
         CustomerNotifier customerNotifier = new CustomerNotifier();
         SellerNotifier sellerNotifier = new SellerNotifier();
+        //OrderPlacedSubscriber n = new SCMNotifier();
 
         a.orderPlaceEvent();
         a.orderCancelledEvent();

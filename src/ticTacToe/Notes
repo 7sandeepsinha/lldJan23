@@ -1,0 +1,26 @@
+packaging by layer - controllers, services, repositories/dao, models
+example -> User, Movie, Ticket
+
+controller
+    /UserController
+    /MovieController
+    /TicketController
+
+service
+    /UserService
+    /MovieService...
+
+packaging by feature - keep all classes related to a feature/entity together
+example -> User, Movie, Ticket
+
+user
+    /UserController
+    /UserService
+    /UserRepo
+    /User
+
+movie
+    /MovieController
+    /MovieService
+    /MovieRepo
+    /Movie
