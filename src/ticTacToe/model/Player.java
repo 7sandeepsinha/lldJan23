@@ -20,7 +20,7 @@ public class Player {
 
         System.out.println("Please enter the col for move");
         int col = sc.nextInt();
-        //TODO : validate the move
+        //TODO : validate the move, using board
         return new Move(this, new Cell(row, col));
     }
 
@@ -49,3 +49,6 @@ public class Player {
         this.type = type;
     }
 }
+
+
+//BREAK till 10:25 PM
